@@ -1,0 +1,98 @@
+body{
+    background-image: url('http://rhinobooksnashville.com/wp-content/uploads/2019/06/1_CsDgB2D8KIetB_e37t3n_A.jpeg')
+}
+h1{
+    line-height: 3;
+    font-family: 'Dancing Script', cursive;
+    margin-block-start: 1em;
+    text-align:center;
+    font-size: 3em;
+    margin-bottom: -28px;
+    color: white;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+}
+p{
+    font-size: 25;
+    text-align:center;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 10px;
+    color: white;
+}
+
+h2{
+    font-size: 20;
+    text-align:center;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.link1 {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    font-family: 'Dancing Script', cursive;
+}
+.link2{
+    text-align: center;
+    font-size: 3em;
+}
+.fa-facebook{
+    color:#3b5998
+}
+.fa-weixin{
+    color:#09B83E
+}
+.fa-github{
+    color:rgba(0,0,0,0.8)
+}
+
+.link2 > a {
+    text-decoration: none;
+}
+
+.link1 > a {
+    color: whitesmoke;
+    width: 50;
+    height: 50;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.7);
+    padding: 8px
+}
+.container {
+    width: 523px;
+    height: 539px;
+    margin: 0 auto; 
+    border-radius: 20px;
+    border-right-style: groove;
+    background-color: rgba(0,0,0,0.3);
+}
+.container > box-shadow{
+    box-shadow: 1px 1px 10px grey;
+}
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+        width: 700px;
+    }
+}
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+}
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+}
